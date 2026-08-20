@@ -1,0 +1,59 @@
+/* Modify font-family & font-size properties */
+body {
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 120%;
+}
+
+/* Modify background color property */
+header {
+  background-color: #855dc2;
+}
+
+/* Modify background color property */
+/* Add inline-block display and width */
+nav {
+  display: inline-block;
+  width: 80%;
+  background-color: #020202;
+}
+/* Use descendant selector to style the only img */
+header img {
+  width: 10%;
+}
+
+/* Modify background color & font-size properties */
+main {
+  background-color: #090009;
+  font-size: 80%;
+}
+
+/* Modify background color property */
+footer {
+  background-color: #041434;
+}
+
+/* Modify display & width properties */
+/* li {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+} */
+
+/* Modify text alignment, font family, and color properties */
+h1 {
+  text-align: center;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  color: #f2f2f2;
+}
+
+/* Modify line height property */
+p {
+  line-height: 1.8;
+  color: #f2f2f2;
+}
+
+/* Modify link styles */
+a {
+  color: #858484;
+  text-decoration: underline;
+}
