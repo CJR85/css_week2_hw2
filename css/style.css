@@ -41,17 +41,20 @@ main > img {
 }
 
 /* NBHD-WALKS two column grid */
-.nbhd-walks {
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
   justify-content: right;
   align-items: center;
-  row-gap: 10px;
+  row-gap: 60px;
 }
 
-/* Parks */
-.parks {
+.grid img {
+  width: 80%;
+}
+
+/* Walks in the Parks Flexbox */
+.flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
