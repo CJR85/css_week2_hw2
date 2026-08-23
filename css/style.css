@@ -21,6 +21,7 @@ nav {
   width: 80%;
   background-color: #020202;
 }
+
 /* Use descendant selector to style the only img */
 header img {
   width: 10%;
@@ -43,22 +44,21 @@ main > img {
 /* NBHD-WALKS two column grid */
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: right;
-  align-items: center;
-  row-gap: 60px;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: start;
+  row-gap: 20px;
 }
 
 .grid img {
-  width: 80%;
+  width: 100%;
 }
 
 /* Walks in the Parks Flexbox */
 .flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
+  justify-content: space-around;
 }
 
 /* Modify background color property */
