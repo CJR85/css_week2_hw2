@@ -61,6 +61,16 @@ main > img {
   justify-content: space-around;
 }
 
+.flex img {
+  opacity: 0.75;
+}
+
+img:hover,
+img:focus {
+  opacity: 1;
+  border: 2px solid #f2f2f2;
+}
+
 /* Modify background color property */
 footer {
   background-color: #041434;
